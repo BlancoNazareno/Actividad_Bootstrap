@@ -1,0 +1,93 @@
+<!DOCTYPE html>     
+<html lang="es">   
+
+    <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width"> 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Test Page</title> 
+    
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Codo a Codo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Desactivado</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="card-group">
+        <div class="card p-3">
+          <img src="html1.jpg" class="card-img-top" width="638px" height="370px">
+          <div class="card-body">
+            <h4 class="card-title"> Título 1</h4>
+            <h6 class="card-text"> Contenido de card</h6>
+            <p class="card-text"><small class="text-muted"> Última actualización</small></p>
+          </div>
+        </div>
+
+        <div class="card p-3">
+          <img src="css1.png" class="card-img-top" width="638px" height="370px"> 
+          <div class="card-body">
+            <h4 class="card-title"> Título 2</h4>
+            <h6 class="card-text"> Contenido de card</h6>
+            <p class="card-text"><small class="text-muted"> Última actualización</small></p>
+          </div>
+        </div>
+
+        <div class="card p-3">
+          <img src="bootstrap1.png" class="card-img-top" width="638px" height="370px"> 
+          <div class="card-body">
+            <h4 class="card-title"> Título 3</h4>
+            <h6 class="card-text"> Contenido de card</h6>
+            <p class="card-text"><small class="text-muted"> Última actualización</small></p>
+          </div>
+        </div>
+
+      </div>
+
+    <br>
+    <div class="container row align-items-start">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+          <p class="text-muted">Nunca comparta su email</p>
+        </div>
+        <div class="form-group">
+          <label for="pwd" class="form-label">Contraseña:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Ingrese contraseña" name="pswd">
+        </div>
+        <div class="checkbox">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Verificar
+          </label>
+        </div>
+      <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+    </div>
+
+</body> 
